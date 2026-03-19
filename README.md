@@ -297,3 +297,232 @@ Projeto desenvolvido para prática e demonstração de habilidades em:
 * Filtros dinâmicos com JPA
 
 ---
+
+🧭 Plano de Avaliação por Etapas
+📊 Sistema de notas
+
+Cada etapa vai ter nota de 0 a 10, baseada em:
+
+Qualidade do código (40%)
+
+Boas práticas (30%)
+
+Clareza/organização (20%)
+
+Maturidade técnica (10%)
+
+👉 E eu também vou te dizer:
+
+nível: ❌ fraco | ⚠️ ok | ✅ bom | 🔥 forte
+
+🚀 ETAPAS
+🟢 Etapa 1 — Estrutura + Entity + Enum
+
+Objetivo: base sólida
+
+Você entrega:
+
+estrutura de pacotes
+
+entidade Relogio
+
+enums (tipoMovimento, etc.)
+
+Vou avaliar:
+
+modelagem correta
+
+uso de JPA (@Entity, @Id, etc.)
+
+uso de enums (fromApi/toApi 🔥)
+
+organização de pacotes
+
+🟢 Etapa 2 — Repository + Seed inicial
+
+Objetivo: persistência funcionando
+
+Você entrega:
+
+RelogioRepository
+
+classe de seed (dados iniciais)
+
+Vou avaliar:
+
+uso correto do Spring Data
+
+design do repository
+
+seed limpo (sem gambiarra)
+
+🟡 Etapa 3 — CRUD básico (sem DTO ainda)
+
+Objetivo: fluxo funcionando
+
+Você entrega:
+
+Service
+
+Controller
+
+endpoints CRUD funcionando
+
+Vou avaliar:
+
+separação de responsabilidades
+
+controller fino (importante!)
+
+service com regras
+
+🟡 Etapa 4 — DTO + Mapper
+
+Objetivo: maturidade de API
+
+Você entrega:
+
+DTO de entrada/saída
+
+mapper manual
+
+Vou avaliar:
+
+separação entity vs DTO
+
+mapper limpo
+
+código legível (sem bagunça)
+
+🟠 Etapa 5 — Paginação + Ordenação
+
+Objetivo: API mais profissional
+
+Você entrega:
+
+paginação (Pageable)
+
+ordenação
+
+Vou avaliar:
+
+uso correto do Spring
+
+não reinventar roda
+
+resposta bem estruturada
+
+🔴 Etapa 6 — Filtros simples
+
+Objetivo: começar lógica dinâmica
+
+Você entrega:
+
+filtros básicos funcionando (marca, tipo, etc.)
+
+Vou avaliar:
+
+clareza
+
+organização (sem if gigante ainda)
+
+🔥 Etapa 7 — Specification (nível avançado)
+
+Objetivo: diferencial real
+
+Você entrega:
+
+filtros combináveis com JpaSpecificationExecutor
+
+Vou avaliar PESADO aqui:
+
+qualidade da implementação
+
+reaproveitamento
+
+elegância da solução
+
+👉 Essa etapa vale MUITO no mercado
+
+🟣 Etapa 8 — Campos calculados (mapper/service)
+
+Objetivo: lógica de negócio
+
+Você entrega:
+
+etiquetaResistenciaAgua
+
+pontuacaoColecionador
+
+Vou avaliar:
+
+clareza da lógica
+
+organização (não poluir mapper)
+
+código limpo
+
+🟤 Etapa 9 — Validação + Exception Handler
+
+Objetivo: robustez
+
+Você entrega:
+
+validações (@Valid, etc.)
+
+@ControllerAdvice
+
+Vou avaliar:
+
+qualidade das mensagens
+
+tratamento de erro
+
+padrão de resposta
+
+⚫ Etapa 10 — Refinamento final
+
+Objetivo: nível profissional
+
+Você melhora:
+
+nomes
+
+organização
+
+pequenos detalhes
+
+Vou avaliar:
+
+“cara de projeto de empresa”
+
+🧠 Etapa EXTRA (IMPORTANTE PRA VIDA REAL)
+💬 Etapa 11 — Comunicação assíncrona (🔥 diferencial forte)
+
+Você NÃO vai codar, vai explicar:
+
+Responda como se estivesse no Slack da empresa:
+
+“Explique como sua API funciona, decisões que você tomou e o que melhoraria com mais tempo”
+
+Vou avaliar:
+
+clareza
+
+objetividade
+
+pensamento de engenheiro (não só codador)
+
+👉 Isso aqui separa quem passa em entrevista
+
+🏁 Resultado final
+
+No final eu te dou:
+
+📊 média geral
+
+📈 seu nível (Júnior | Júnior forte | Pleno)
+
+🎯 o que falta pra próximo nível
+
+💬 como você se vender em entrevista
