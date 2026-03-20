@@ -519,10 +519,12 @@ pensamento de engenheiro (não só codador)
 
 No final eu te dou:
 
+<h2>Avaliacoes ChatGPT</h2>
+
+📊 ✅ Etapa 1 — AVALIAÇÃO FINAL
+🧠 Nota final: 9.6 / 10
+🔥 Nível: 🔥 FORTE
+
 📊 média geral
 
-📈 seu nível (Júnior | Júnior forte | Pleno)
 
-🎯 o que falta pra próximo nível
-
-💬 como você se vender em entrevista
